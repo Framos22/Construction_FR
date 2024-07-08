@@ -11,7 +11,6 @@ public class Mall extends Business {
         this.numParkingSpaces = 0;
     }
 
-    // Preferred constructor
     public Mall(String projectName, String completeAddress, double totalSquareFeet, String occupancyGroup, String subgroup, int numRentableUnits, int numRentedUnits, double medianUnitSize, int numParkingSpaces) {
         super();
         this.numRentedUnits = numRentedUnits;
@@ -19,7 +18,6 @@ public class Mall extends Business {
         this.numParkingSpaces = numParkingSpaces;
     }
 
-    // Getters and setters
     public int getNumRentedUnits() {
         return numRentedUnits;
     }
@@ -55,7 +53,6 @@ public class Mall extends Business {
                 numRentedUnits, medianUnitSize, numParkingSpaces);
     }
 
-    // toString method
     @Override
     public String toString() {
         return "Mall{" +
